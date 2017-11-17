@@ -1,0 +1,501 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sendit! v1.2 (beta)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-03-27 15:59+0100\n"
+"Last-Translator: Fuad Sabanovic <fuad@ucs.se>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"Language: sv_SE\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#  sendit
+# Fuad Sabanovic
+# fuad.sabanovic@gmail.com
+#: sendit.php:78 sendit.php:107 sendit.php:138
+msgid "Subscribe"
+msgstr "Prenumerera"
+
+# @ sendit
+#: sendit.php:161
+msgid "Newsletter title: "
+msgstr "Rubrik för nyhetsbrevet"
+
+# @ sendit
+#: sendit.php:163
+msgid "Mailing list ID: "
+msgstr "ID epost lista:"
+
+# @ sendit
+#: sendit.php:313 sendit.php:1073
+msgid "Send"
+msgstr "Skicka"
+
+# @ sendit
+#: sendit.php:313
+msgid "Newsletter"
+msgstr "Nyhetsbrev"
+
+# @ sendit
+#: sendit.php:315
+msgid "Manage subscribers"
+msgstr "Administrera prenumeranter"
+
+# @ sendit
+#: sendit.php:319 sendit.php:544
+msgid "Options"
+msgstr "Alternativ"
+
+# @ sendit
+#: sendit.php:321 sendit.php:324 sendit.php:328
+msgid "email import"
+msgstr "Epost import"
+
+# @ sendit
+#: sendit.php:321
+msgid "Import emails from comments"
+msgstr "Importera epost från komentarer"
+
+# @ sendit
+#: sendit.php:497
+msgid "Mailing list updated"
+msgstr "Epostlistan updaterad"
+
+# @ sendit
+#: sendit.php:562
+msgid "Available lists"
+msgstr "Tillgängliga listor"
+
+# @ sendit
+#: sendit.php:576
+msgid "Edit"
+msgstr "Redigera"
+
+# @ sendit
+#: sendit.php:586
+msgid "Newsletter options"
+msgstr "Alternativ för nyhetsbrev"
+
+# @ sendit
+#: sendit.php:590
+msgid "from email"
+msgstr "Från epost"
+
+# @ sendit
+#: sendit.php:593
+msgid "Newsletter name"
+msgstr "Namn på nyhetsbrev"
+
+# @ sendit
+#: sendit.php:598
+msgid "Template"
+msgstr "Mall"
+
+# @ sendit
+#: sendit.php:599
+msgid "Header and Footer (XHTML code)"
+msgstr "Header och Footer (XHTML code)"
+
+# @ sendit
+#: sendit.php:605
+msgid "Header"
+msgstr "Header"
+
+# @ sendit
+#: sendit.php:608
+msgid "Footer"
+msgstr "Footer"
+
+# @ sendit
+#: sendit.php:613
+msgid "Save"
+msgstr "Spara"
+
+# @ sendit
+#: sendit.php:883
+msgid "Send Newsletter"
+msgstr "Skicka Nyhetsbrev"
+
+# @ sendit
+#: sendit.php:1033
+msgid "Select a post (if you want to send it by email)"
+msgstr "Välj artikel (om du vill skicka den via epost)"
+
+# @ sendit
+#: sendit.php:480
+msgid "Mailing list created succesfully!"
+msgstr "Epostlista skapades!"
+
+# @ sendit
+#: sendit.php:502
+msgid "email@here"
+msgstr "epost@here"
+
+# @ sendit
+#: sendit.php:503
+msgid "New mailing list"
+msgstr "Ny epostlista"
+
+# @ sendit
+#: sendit.php:507
+msgid "Mailing created successfully!"
+msgstr "Epostlista skapad!"
+
+# @ sendit
+#: sendit.php:568
+msgid "Create new list"
+msgstr "Skapa ny epostlista"
+
+# @ sendit
+#: sendit.php:575
+msgid "Mailing list"
+msgstr "Epostlista"
+
+# @ sendit
+#: sendit.php:1058
+msgid "Please select a mailing list"
+msgstr "Välj epostlista"
+
+# @ sendit
+#: sendit.php:1066
+msgid "Subject"
+msgstr "Rubrik"
+
+# @ sendit
+#: sendit.php:1203
+msgid "Mailing list management"
+msgstr "Adminstrationa av epostlistan"
+
+# @ sendit
+#: sendit.php:715 sendit.php:802
+msgid "Select list"
+msgstr "Välj lista"
+
+# @ sendit
+#: sendit.php:1229
+msgid "Manual Subscribe mailing list "
+msgstr "Manuel prenumeration"
+
+# @ sendit
+#: sendit.php:1232
+msgid "Copy here one or more email address"
+msgstr "Kopiera här en eller flera epost adresser"
+
+# @ sendit
+#: sendit.php:1233
+msgid "email address (one or more: default separator= line break)"
+msgstr "epost adress (en eller flera: separera med ny rad)"
+
+# @ sendit
+#: sendit.php:1239
+msgid "Add"
+msgstr "Lägg till"
+
+# @ sendit
+#: sendit.php:1244
+msgid "Subscribers"
+msgstr "Prenumeranter"
+
+# @ sendit
+#: sendit.php:1270
+msgid "email"
+msgstr "epost"
+
+# @ sendit
+#: sendit.php:1280
+msgid "Confirmed"
+msgstr "Bekräftad"
+
+# @ sendit
+#: sendit.php:1288
+msgid "Cancelled"
+msgstr "Avprenumererad"
+
+# @ sendit
+#: sendit.php:1292
+msgid "Update"
+msgstr "Uppdatera"
+
+# @ sendit
+#: sendit.php:577 sendit.php:1294
+msgid "Delete"
+msgstr "Radera"
+
+# @ sendit
+#: confirmation.php:45
+msgid "Thank you for subscribe our newsletter!"
+msgstr "Tack för att du prenumererar på vår nyhetsbrev!"
+
+# @ sendit
+#: confirmation.php:45
+msgid "you will be updated"
+msgstr "du blir underrättad"
+
+# @ sendit
+#: delete.php:21
+msgid "email addresso not present or something is going wrong?!"
+msgstr "epost adress finns inte eller så har det uppstått ett fel?!"
+
+# @ sendit
+#: delete.php:44
+msgid "Your email address was deleted suffesfully from our mailing list!"
+msgstr "Din epost adress togs bort från vår epostlista!"
+
+# @ sendit
+#: submit.php:17
+msgid "not valid email address"
+msgstr "Felaktig epost format"
+
+# @ sendit
+#: submit.php:31
+msgid "email address already present"
+msgstr "epost finns redan"
+
+# @ sendit
+#: submit.php:54
+msgid "Welcome to newsletter by: "
+msgstr "Välkommen till nyhetsbrev från:"
+
+# @ sendit
+#: submit.php:56
+msgid "To confirm your subscription please follow this link"
+msgstr "För att bekräfta din prenumeration vänligen klicka på denna länk"
+
+# @ sendit
+#: submit.php:57
+msgid "Confirm here"
+msgstr "Bekräfta här"
+
+# @ sendit
+#: submit.php:94 submit.php:109
+msgid "New subscriber for your newsletter: "
+msgstr "Ny prenumerant för din nyhetsbrev: "
+
+#: submit.php:111
+msgid " subscribe to your mailing list:   "
+msgstr "prenumerera på din epostlista:"
+
+# @ sendit
+#: sendit.php:516
+msgid "Mailing deleted successfully!"
+msgstr "epost raderad!"
+
+# @ sendit
+#: sendit.php:533
+#, php-format
+msgid ""
+"Are You sure to delete %d list? it will delete all mailing list and "
+"subscribers data "
+msgstr ""
+"Är du säker på du vill radera %d Lista? Alla prenumeranter och listdata "
+"raderas"
+
+# @ sendit
+#: sendit.php:635
+msgid "Import email from comments (wp_comments)"
+msgstr "Importera från kommentar (wp_comments)"
+
+# @ sendit
+#: sendit.php:639
+msgid ""
+"Click on Import button to start. All comments email will be added to your "
+"mailing list ID 1"
+msgstr ""
+"Klicka på Importera knappen. Alla adresser från kommentar kommer att läggas "
+"till lista ID 1"
+
+# @ sendit
+#: sendit.php:639 sendit.php:712 sendit.php:799
+msgid "(email address already presents will not be added)"
+msgstr "(Epost adress finns redan)"
+
+# @ sendit
+#: sendit.php:640 sendit.php:713 sendit.php:800
+msgid "Import"
+msgstr "Importera"
+
+# @ sendit
+#: sendit.php:671 sendit.php:757 sendit.php:846 sendit.php:1154
+#, php-format
+msgid "email %s already present"
+msgstr "epost %s finns redan"
+
+# @ sendit
+#: sendit.php:676 sendit.php:762 sendit.php:851
+#, php-format
+msgid "email %s succesfully added"
+msgstr "epost %s lades till"
+
+# @ sendit
+#: sendit.php:1113
+msgid "Email deleted succesfully!"
+msgstr "epost raderad!"
+
+# @ sendit
+#: sendit.php:1124
+#, php-format
+msgid "email %s edited succesfully"
+msgstr "epost %s editerad!"
+
+# @ sendit
+#: sendit.php:1159
+#, php-format
+msgid "email %s added succesfully!"
+msgstr "epost %s lades till!"
+
+# @ sendit
+#: sendit.php:1284
+msgid "Not confirmed"
+msgstr "Ej bekräftad"
+
+#: sendit.php:279
+msgid "Newsletter sent by Sendit Wordpress plugin"
+msgstr "Nyhetsbrev skickad med Sendit plugin Wordpress"
+
+# @ sendit
+#: sendit.php:317
+msgid "SMTP settings"
+msgstr "SMTP inställningar"
+
+# @ sendit
+#: sendit.php:324
+msgid "Import emails from WP Users"
+msgstr "Importera epost från WP användare"
+
+# @ sendit
+#: sendit.php:328
+msgid "Import emails from BBpress"
+msgstr "Importera epost från BBpress"
+
+# @ sendit
+#: sendit.php:345
+msgid "Sendit SMTP settings"
+msgstr "Sendit SMTP inställningar"
+
+# @ sendit
+#: sendit.php:363
+msgid "Settings saved!"
+msgstr "Inställningar sparade!"
+
+# @ sendit
+#: sendit.php:365
+msgid ""
+"Smtp settings are required only if you want to send mail using an SMTP server"
+msgstr "SMTP inställningar krävs endast om du skickar via SMTP server"
+
+#: sendit.php:366
+msgid ""
+"By default Sendit will send newsletter using the mail() function, if you "
+"sant to send mail using SMTP server you just have to type your settings here"
+msgstr ""
+"Som standars anvädet Sendit mail() funktion, om du vill skicka via SMTP "
+"måste du ange inställningar här"
+
+# @ sendit
+#: sendit.php:380
+msgid "Settings below are required only if SMTP server require authentication"
+msgstr "Inställninga nedan krävs endast om din server kräver SMTP verifiering"
+
+# @ sendit
+#: sendit.php:447
+msgid "Save settings"
+msgstr "Spara inställningar"
+
+# @ sendit
+#: sendit.php:708
+msgid "Import email from Authors (wp_users)"
+msgstr "Importera epost från skribenter (wp_users)"
+
+# @ sendit
+#: sendit.php:712 sendit.php:799
+msgid ""
+"Click on Import button to start. All Authors email will be added to your "
+"mailing list ID 1"
+msgstr ""
+"Klicka på Importrera knappen. Alla e-post adresser för författare kommer att "
+"läggas till lista med ID 1"
+
+# @ sendit
+#: sendit.php:795
+msgid "Import email from BBpress Users (bb_users)"
+msgstr "Importera epost från BBpress"
+
+# @ sendit
+#: sendit.php:1050
+msgid "Get content"
+msgstr "Hämta innehåll"
+
+# @ sendit
+#: sendit.php:645 sendit.php:731 sendit.php:818 sendit.php:1078
+msgid ""
+"Do you think Sendit it\\'s useful? Please send a donation to support our "
+"development and i really appreciate!"
+msgstr ""
+"Do you think Sendit it\\'s useful? Please send a donation to support our "
+"development and i really appreciate!"
+
+# @ sendit
+#: sendit.php:884
+msgid ""
+"Sendit needs support! Make a donation NOW!<br />\n"
+"\tnew version with new features is coming: cron-jobs / batch and queue "
+"emails / new user interface!"
+msgstr ""
+"Sendit needs support! Make a donation NOW!<br />\n"
+"\tnew version with new features is coming: cron-jobs / batch and queue "
+"emails / new user interface!"
+
+# @ sendit
+#: sendit.php:973
+msgid "To unsubscribe, please click on the link below"
+msgstr "För att Avprenumerera, vänligen klicka på länken nedan"
+
+# @ sendit
+#: sendit.php:974
+msgid "Unsubscribe now"
+msgstr "Avprenumerara nu"
+
+# @ sendit
+#: submit.php:15
+msgid "Subscription completed now Check your email and confirm"
+msgstr "Prenumeration klar, kolla din epost för bekräftelse mejl"
+
+# @ sendit
+#: sendit.php:404
+msgid ""
+"These settings are useful if you want to send email blocks and stop for some "
+"seconds"
+msgstr ""
+"Dessa inställningar är användbara om du vill skicka ett gäng och vänta i "
+"några sekunder"
+
+# @ sendit
+#: sendit.php:983
+msgid " Error sending email!"
+msgstr "Fel vid utskick"
+
+# @ sendit
+#: sendit.php:997
+#, php-format
+msgid "Sendit will restart to send newsletters in %s seconds"
+msgstr "Sendit kommer att skicka nyhetsbrev om %s sekunder"
+
+# @ sendit
+#: sendit.php:1244
+msgid "Subscriptions confirmed"
+msgstr "Prenumeration bekräftad"
+
+#  sendit
+#: sendit.php:319
+msgid "Lists management"
+msgstr "Listhanterare"

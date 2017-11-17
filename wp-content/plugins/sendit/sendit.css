@@ -1,0 +1,87 @@
+.selected{background: #ffcc00; font-weight: bold;}
+
+.sendit{
+
+}
+.sendit h3, .sendit h4{
+
+}
+.sendit label{
+
+}
+
+#sendit_subscribe_button{display:block;margin:5px 0}
+#sendit-wait{ position: relative; }
+
+#submitbutton{
+
+margin-top: 5px;
+width: 180px;
+}
+
+.sendit br{
+clear: left;
+}
+
+.sendit-info, .sendit-success, .sendit-warning, .sendit-error, .validation {
+    margin: 5pt 0;
+    padding:10pt;
+}
+.sendit-info, .sendit-notice{
+    color: #f0ad4e;
+}
+.sendit-success {
+    color: #5cb85c;
+}
+.sendit-warning {
+    color: #FEEFB3;
+}
+.sendit-error {
+    color: #d9534f;
+}
+
+
+/*buttons*/
+
+//*
+Plugin Name: WP-Digg Style Paginator
+Plugin URI: http://www.mis-algoritmos.com/2007/09/09/wp-digg-style-pagination-plugin-v-10/
+Author: Victor De la Rocha
+Author URI: http://www.mis-algoritmos.com
+*/
+/*CSS Digg style pagination*/
+	div.pagination {
+		padding: 3px;
+		margin: 3px;
+		text-align:center;
+	}
+
+	div.pagination a {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #AAAADD;
+
+		text-decoration: none; /* no underline */
+		color: #000099;
+	}
+	div.pagination a:hover, div.digg a:active {
+		border: 1px solid #000099;
+
+		color: #000;
+	}
+	div.pagination span.current {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #000099;
+
+		font-weight: bold;
+		background-color: #21759B;
+		color: #FFF;
+	}
+	div.pagination span.disabled {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #EEE;
+
+		color: #DDD;
+	}

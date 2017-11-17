@@ -1,0 +1,95 @@
+.ui-datepicker {
+	background: #fff;
+	padding: 5px;
+
+	/**
+	* Header - Prev/Next
+	*/
+	.ui-datepicker-header {
+		/**
+		* Dashicons
+		*/
+		a {
+			span {
+				visibility: hidden;
+				display: inline-block;
+			    width: 20px;
+			    height: 20px;
+			}
+			span::before {
+				visibility: visible;
+			    display: inline-block;
+			    width: 20px;
+			    height: 20px;
+			    font-size: 20px;
+			    line-height: 1;
+			    font-family: dashicons;
+			    text-decoration: inherit;
+			    font-weight: 400;
+			    font-style: normal;
+			    vertical-align: top;
+			}
+		}
+
+		/**
+		* Previous
+		*/
+		a.ui-datepicker-prev {
+			float: left;
+
+			span.ui-icon-circle-triangle-w {
+				float: left;
+			}
+			span.ui-icon-circle-triangle-w::before {
+				content: "\f341";
+			}
+		}
+
+		/**
+		* Next
+		*/
+		a.ui-datepicker-next {
+			float: right;
+
+			span.ui-icon-circle-triangle-e {
+				float: right;
+			}
+			span.ui-icon-circle-triangle-e::before {
+				content: "\f345";;
+			}
+		}
+
+		/**
+		* Disabled
+		*/
+		a.ui-state-disabled {
+			color: #eee;
+		}
+	}
+
+	/**
+	* Title (Month + Year)
+	*/
+	div.ui-datepicker-title {
+		font-size: 12px;
+		line-height: 20px;
+		text-align: center;
+	}
+
+	/**
+	* Calendar
+	*/
+	table.ui-datepicker-calendar {
+		tbody {
+			tr {
+				td {
+					text-align: center;
+
+					a {
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+}

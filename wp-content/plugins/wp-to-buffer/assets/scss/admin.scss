@@ -1,0 +1,364 @@
+/**
+* Datepicker
+*/
+@import "datepicker";
+
+/**
+* Progress Bar
+*/
+.option.progressbar {
+	@import "progressbar";
+}
+
+/**
+* Dark Menu Icon
+*/
+li.toplevel_page_wp-to-buffer-settings,
+li.toplevel_page_wp-to-buffer-pro {
+    a {
+		div.wp-menu-image {
+			background: url(../images/icons/buffer-dark.svg) center no-repeat;
+			background-size: 16px 16px;
+
+			img {
+				display: none;
+			}
+		}
+	}
+}
+
+/**
+* Light Menu Icon
+*/
+body.admin-color-fresh,
+body.admin-color-midnight {
+	li.toplevel_page_wp-to-buffer-settings,
+	li.toplevel_page_wp-to-buffer-pro {
+		a {
+			div.wp-menu-image {
+				background: url(../images/icons/buffer-light.svg) center no-repeat;
+				background-size: 16px 16px;
+			}
+		}
+	}	
+}
+
+/**
+* Post Meta
+*/
+body.post-php,
+body.post-new-php {
+	#wp-to-buffer-pro {
+		&:not(.closed) {
+			border: none;
+			box-shadow: none;
+			background: none;
+		}
+
+		> h3.hndle {
+			background: #fff;
+			border-top: 1px solid #e5e5e5;
+			border-right: 1px solid #e5e5e5;
+			border-left: 1px solid #e5e5e5;
+				
+		}
+
+		div.inside {
+			margin: 0;
+			padding: 0;
+
+			> div.option {
+				border-right: 1px solid #dfdfdf;
+				border-left: 1px solid #dfdfdf;
+			}
+
+			#wp-to-buffer-pro-override {
+				display: none;
+				margin: 20px 0 0 0;
+				
+				h3.nav-tab-wrapper {
+					margin-bottom: 0 !important;
+
+					
+				}
+
+				> div.option {
+					margin: 0 0 20px 0;
+					border-right: 1px solid #e5e5e5;
+					border-left: 1px solid #e5e5e5;
+				}
+
+				> div.panel {
+					> div.sub-panel {
+						background: #fff;
+						padding: 12px;
+						border-right: 1px solid #ccc;
+						border-left: 1px solid #ccc;
+						border-bottom: 1px solid #ccc;
+					}
+				}
+			}
+		}
+	}
+
+	/**
+	* Log
+	*/
+	#wp-to-buffer-pro-log {
+		div.inside {
+			margin: 0;
+			padding: 0;
+
+			div.option {
+				table {
+					thead {
+						tr {
+							th {
+								font-weight: 700;
+							}
+						}
+					}
+					tbody {
+						tr {
+							td {
+								border-bottom: 1px solid #eee;
+							}
+
+							&.error {
+								td {
+									background: red;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/**
+* Settings (Post Meta and Settings Screen)
+*/
+#wp-to-buffer-pro {
+	/**
+	* Tabs
+	*/
+	h3.nav-tab-wrapper {
+		margin-bottom: 20px !important;
+
+		a.nav-tab {
+			width: 48px;
+			padding: 20px 14px 6px 14px;
+
+			&.image {
+				width: 48px;
+				height: 48px;
+				margin-bottom: -10px;
+				padding: 5px;
+			}
+
+			/**
+			* Social Network Icons
+			*/
+			span {
+				position: absolute;
+				display: inline-block;
+				width: 16px;
+				height: 16px;
+				margin: 0 0 0 -16px;
+
+				&.facebook {
+					background: url(../images/icons/facebook.png) top left no-repeat;
+				}
+				&.twitter {
+					background: url(../images/icons/twitter.png) top left no-repeat;
+				}
+				&.linkedin {
+					background: url(../images/icons/linkedin.png) top left no-repeat;
+				}
+				&.google {
+					background: url(../images/icons/google.png) top left no-repeat;
+				}
+				&.pinterest {
+					background: url(../images/icons/pinterest.png) top left no-repeat;
+				}
+				&.instagram {
+					background: url(../images/icons/instagram.png) top left no-repeat;
+				}
+			}
+
+			/**
+			* Social Network Profile Image
+			*/
+			img {
+				position: relative;
+				float: left;
+				width: 48px;
+				height: 48px;
+			}
+		}
+	}
+
+
+	/**
+	* Postbox
+	*/
+	div.postbox {
+		display: inline-block;
+		width: 100%;
+
+		/**
+		* Title
+		*/
+		h3.hndle {
+			/**
+			* Checkboxes in Titles
+			*/
+			label {
+				float: right;
+				font-weight: normal;
+			}
+		}
+
+		/**
+		* Statuses
+		*/
+		div.statuses {
+			float: left;
+			width: 100%;
+		
+			/**
+			* Row
+			*/
+			div.option {
+				float: left;
+				width: 100%;
+				box-sizing: border-box;
+
+				/**
+				* Number + Delete
+				*/
+				div.number {
+					position: relative;
+					z-index: 2;
+					float: left;
+					width: 52px;
+					box-sizing: border-box;
+					text-align: center;
+
+					/**
+					* Number
+					*/
+					a.count {
+						display: inline-block;
+						width: 32px;
+						height: 32px;
+						line-height: 32px;
+						cursor: move;
+						border: 1px solid #bbb;
+						border-radius: 50%;
+						text-decoration: none;
+					}
+
+					/**
+					* Delete
+					*/
+					a.delete {
+						display: inline-block;
+						width: 32px;
+						height: 32px;
+						line-height: 32px;
+					}
+				}
+
+				/**
+				* Status
+				*/
+				div.status {
+					position: relative;
+					z-index: 1;
+					float: right;
+					width: 100%;
+					box-sizing: border-box;
+					margin: -65px 0 0 0;
+					padding: 0 0 0 60px;
+
+					/**
+					* Paragraphs
+					*/
+					p {
+						clear: both;
+						float: left;
+						width: 100%;
+					}
+
+					/**
+					* Tags
+					*/
+					select.tags {
+						margin-bottom: 5px;
+					}
+
+					p:first-child {
+						margin: 0 0 10px 0;
+					}
+
+					/**
+					* Conditions
+					*/
+					div.conditions-outer {
+						margin: 10px 0 0 0;
+						padding: 10px;
+						border: 2px dotted #b4b9be;
+
+						div.conditions {
+							margin: 0 0 10px 0;
+
+							/**
+							* Single Condition
+							*/
+							div.condition {
+								/**
+								* Delete
+								*/
+								a.delete-condition {
+									display: inline-block;
+									width: 20px;
+									height: 32px;
+									line-height: 32px;
+								}
+
+								&:last-child {
+									span.or {
+										display: none;
+									}
+								}
+							}
+						}
+					}
+				}
+
+				/**
+				* Don't display first status' delete button
+				* Reduce negative margin on status as no delete button is displayed
+				*/		
+				&.first {
+					div.number {
+						a.delete {
+							display: none;
+						}
+					}
+					div.status {
+						margin: -32px 0 0 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+/**
+* Responsive
+*/
+@import "responsive";

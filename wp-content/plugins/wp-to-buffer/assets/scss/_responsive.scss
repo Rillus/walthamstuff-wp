@@ -1,0 +1,100 @@
+@media only screen and (max-width: 768px) {
+	/**
+	* Settings (Post Meta and Settings Screen)
+	*/
+	#wp-to-buffer-pro {
+		/**
+		* Postbox
+		*/
+		div.postbox {
+			/**
+			* Statuses
+			*/
+			div.statuses {
+				/**
+				* Row
+				*/
+				div.option {
+					/**
+					* Number + Delete
+					*/
+					div.number {
+						width: 100%;
+						margin: 0 0 10px 0;
+
+						a.count {
+							float: left;
+						}
+
+						a.delete {
+							float: right;
+						}
+					}
+
+					/**
+					* Status
+					*/
+					div.status {
+						clear: both;
+						float: left;
+						margin: 0;
+						padding: 0;
+					}
+
+					/**
+					* Don't display first status' delete button
+					* Reduce negative margin on status as no delete button is displayed
+					*/		
+					&.first {
+						div.status {
+							margin: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	/**
+	* Settings (Post Meta and Settings Screen)
+	*/
+	#wp-to-buffer-pro {
+		/**
+		* Postbox
+		*/
+		div.postbox {
+			/**
+			* Statuses
+			*/
+			div.statuses {
+				/**
+				* Row
+				*/
+				div.option {
+					/**
+					* Status
+					*/
+					div.status {
+						/**
+						* Tags
+						*/
+						select.tags {
+							width: 100%;
+						}
+
+						/**
+						* Feat. Image
+						*/
+						select.right {
+							clear: both;
+							float: left;
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}	
+}
